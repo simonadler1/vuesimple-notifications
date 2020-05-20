@@ -1,8 +1,10 @@
 <template>
-  <div id="app">
-    <Dashboard />
-    <NotificationsList />
-  </div>
+  <v-app>
+    <div id="app">
+      <Dashboard />
+      <NotificationsList />
+    </div>
+  </v-app>
 </template>
 
 <script>
@@ -12,6 +14,7 @@ export default {
   name: "App",
   components: {
     Dashboard,
+    NotificationsList,
   },
 };
 </script>
