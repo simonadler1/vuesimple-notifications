@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <Dashboard />
+    <NotificationsList />
   </div>
 </template>
 
 <script>
 import Dashboard from "@/views/Dashboard";
+import NotificationsList from "@/components/Notifications/NotificationsList";
 export default {
   name: "App",
   components: {
