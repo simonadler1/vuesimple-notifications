@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div :class="typeClass">{{notification.Message}}</div>
+    <div :class="typeClass">{{ notification.message }}</div>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    notification: Object
+    notification: Object,
   },
   computed: {
     typeClass() {
       return `alert ${this.notification.type}`;
-    }
-  }
+    },
+  },
 };
 </script>
 

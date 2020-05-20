@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import { mapGetters, mapActions, mapState } from "vuex";
-import NotificationMessage from "@/components/utilities/Notifications/NotificationMessage";
+import { mapState } from "vuex";
+import NotificationMessage from "@/components/Notifications/NotificationMessage";
 export default {
   components: {
-    NotificationMessage
+    NotificationMessage,
   },
-  computed: mapState(["notifications"])
+  computed: mapState(["notifications"]),
 };
 </script>
 
